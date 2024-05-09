@@ -199,15 +199,15 @@ function get_tracking() {
       tracking_info["delivery_date"][1];
 
     out_date.innerHTML =
-      get_string_date(tracking_info["out_delivery"])[0] +
+      get_string_date(tracking_info["out_delivery"][0])[0] +
       " " +
       tracking_info["out_delivery"][1];
     preparing_date.innerHTML =
-      get_string_date(tracking_info["preparing_delivery"])[0] +
+      get_string_date(tracking_info["preparing_delivery"][0])[0] +
       " " +
       tracking_info["preparing_delivery"][1];
     shipped_date.innerHTML =
-      get_string_date(tracking_info["shipped_date"])[0] +
+      get_string_date(tracking_info["shipped_date"][0])[0] +
       " " +
       tracking_info["shipped_date"][1];
 
