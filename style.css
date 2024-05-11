@@ -42,15 +42,17 @@
         margin-left: 20px;
         z-index: 999;
         border-radius: 50px;
+        position: relative;
         margin-right: 10px;
     }
     
     .line {
-        height: 30.5px;
+        height: 45px;
         width: 3px;
         position: absolute;
-        margin: 20px 0 0 28px;
+        margin: 20px 0 0 28.5px;
         background-color: gray;
+        z-index: 1;
     }
     
     
