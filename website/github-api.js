@@ -1,7 +1,7 @@
 function commit(){
-    const token = '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';
-    const owner = 'incite-world';
-    const repo = 'homepage';
+    const token = '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';
+    const owner = 'eirasmx';
+    const repo = 'codebase';
     const filePath = '../util/data.json'; // File path to update
     const commitMessage = 'Update data.json';
     
