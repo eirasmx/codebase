@@ -1,0 +1,453 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input:focus {
+    border: #0073b5;
+    outline: none;
+}
+
+
+#trip-search {
+    text-align: center;
+    width: 850px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+#trip-search input {
+    height: 50px;
+    font-size: 40px;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.regular-input {
+    width: 800px;
+}
+
+.radio label {
+    position: absolute;
+    margin-top: 20px;
+}
+
+.radio-button-column div{
+    float: left;
+    width: 325px;
+}
+
+
+.radio input {
+    background-color: yellow;
+}
+
+.date {
+    width: 368px;
+    border: 1px solid black;
+}
+
+.date-left {
+    margin-right: 20px;
+}
+
+.column div {
+    float: left;
+    text-align: left;
+}
+
+.column {
+    margin: 15px auto 15px 5px;
+}
+
+
+
+#trip-search p {
+    font-size: 15px;
+}
+
+.radio-button {
+    height: 40px;
+    width: 40px;
+}
+
+label {
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.radio-label {
+    margin-left: 10px;
+}
+
+button {
+    width: 840px;
+    height: 100px;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 10px auto 20px auto;
+    border: 0px;
+    border-radius: 8px;
+    background-color: #0073b5;
+    color: white;
+}
+
+span.legend {
+    font-size: 28px;
+}
+
+.notion {
+    font-size: 10px;
+}
+
+#extra {
+    width: 850px;
+    margin: auto;
+    margin-top: 100px;
+    color: rgb(73, 73, 73);
+}
+
+#extra p {
+    margin-bottom: 40px;
+}
+
+#extra span {
+    font-weight: bold;
+}
+
+#extra h1 {
+    margin-bottom: 30px;
+}
+
+footer {
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    font-size: 13px;
+    padding: 100px 80px;
+}
+
+#traveller-details {
+    width: 842px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+#traveller-details input {
+    height: 50px;
+    font-size: 40px;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 800px;
+}
+
+#traveller-details select {
+    height: 100px;
+    font-size: 40px;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 842px;
+}
+
+option {
+    font-size: 14px;
+}
+
+#traveller-details div {
+    margin-bottom: 25px;
+}
+
+#traveller-details label {
+    color: rgb(22, 22, 22);
+}
+
+#transaction {
+    width: 842px;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    /* background-color: tomato; */
+}
+
+#transaction div {
+    margin-bottom: 25px;
+}
+
+#address input {
+    height: 50px;
+    font-size: 40px;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 800px;
+}
+
+#credit-card {
+    margin: auto;
+    /* background-color: red; */
+}
+
+fieldset {
+    border: 1px solid rgb(185, 185, 185);
+    padding: 50px;
+    border-radius: 8px;
+    margin: 20px auto 30px auto;
+
+}
+
+#credit-card input {
+    height: 50px;
+    font-size: 40px;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 698px;
+}
+
+#column div{
+    float: left;
+    /* background-color: rgb(145, 158, 145); */
+    margin-bottom: 0;
+}
+
+#column div input{
+    width: 317px;
+}
+
+.left {
+    margin-right: 20px;
+}
+
+
+#cabin-details {
+    width: 842px;
+    margin: auto;
+    margin-top: 150px;
+    /* background-color: tomato; */
+}
+
+#cabin-details input {
+    height: 50px;
+    font-size: 40px;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 800px;
+}
+
+#cabin-details select {
+    height: 100px;
+    font-size: 40px;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 842px;
+}
+
+#cabin-class p {
+    /* background-color: blue; */
+    border-bottom: 1px solid rgb(158, 158, 158);
+    color: rgb(158, 158, 158);
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+
+#passengers p {
+    /* background-color: blue; */
+    border-bottom: 1px solid rgb(158, 158, 158);
+    color: rgb(158, 158, 158);
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    margin-top: 80px;
+}
+
+#passengers div {
+    margin-bottom: 25px;
+}
+
+#cabin-button {
+    color: #0073b5;
+    background-color: white;
+    border: 5px #0073b5 solid;
+}
+
+
+#flight-details {
+    width: 842px;
+    margin: auto;
+    margin-top: 150px;
+    /* background-color: tomato; */
+}
+
+#flight-details .flight-price{
+    text-align: center;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 25px;
+}
+
+#flight-details .flight-price p {
+    margin-bottom: 30px;
+    font-weight: bold;
+    padding-top: 60px;
+}
+
+#money-price {
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 58px;
+    color: #0073b5;
+    padding-bottom: 50px;
+}
+
+
+#flight-details input {
+    height: 50px;
+    font-size: 40px;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 800px;
+}
+
+#flight-details .flight-contact label {
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.flight-contact form {
+    margin-top: 40px;
+}
+
+.flight-contact p {
+    color: rgb(133, 133, 133);
+    margin-top: 20px;
+}
+
+.flight-contact {
+    margin-top: 80px;
+}
+
+.scroll-area {
+    width: 848px; /* Set the width of the scroll area */
+    min-height: 92px; /* Set the height of the scroll area */
+    max-height: 390px; /* Set the height of the scroll area */
+    overflow: auto; /* Enable scrolling when content overflows the container */
+    border: 1px solid #ccc; /* Optional: Add border for better visibility */
+    position: absolute;
+    background: white;
+    margin-top: 14px;
+    text-align: left;
+}
+
+.scroll-area section{
+    clear: both;
+}
+
+.scroll-area section div {
+    float: left;
+}
+
+.scroll-left {
+    font-size: 40px;
+    width: 684px;
+    padding: 10px 20px;
+    /* background-color: red; */
+    color: rgb(46, 46, 46);
+}
+
+.scroll-right {
+    font-size: 38px;
+    text-align: center;
+    font-weight: bold;
+    padding: 36px 0;
+    /* background-color: green; */
+    width: 123px;
+}
+
+.scroll-left span {
+    font-size: 35px;
+    color: gray;
+}
+
+.scroll-left p {
+    margin-top: 10px;
+}
+
+.search-result {
+    border-bottom: 1px solid black;
+}
+
+.scroll-left a {
+    font-weight: bolder;
+    margin-left: 10px;
+    color: #0073b5;
+}
+
+#error-messages {
+    font-size: 35px;
+    background-color: red;
+    padding: 30px 20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 8px;
+    display: none;
+}
+
+#complete {
+    width: 842px;
+    margin: auto;
+    margin-top: 350px;
+}
+
+#complete div {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#complete img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+#first-half {
+    font-weight: normal;
+    font-size: 40px;
+    margin-top: 70px;
+}
+
+#second-half {
+    font-weight: normal;
+    font-size: 45px;
+    margin-bottom: 100px;
+    
+}
+
+#middle-half {
+    font-size: 45px;
+    font-weight: bold;
+    color: red;
+    margin: 20px 0;
+}
