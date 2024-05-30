@@ -3,7 +3,7 @@ function commit(){
     const owner = 'eirasmx';
     const repo = 'codebase';
     const filePath = '../util/data.json'; // File path to update
-    const commitMessage = 'Update data.json';
+    const commitMessage = 'Update website/util/data.json';
     
     
     // Base64 encode the content
